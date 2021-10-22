@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* GENERALS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-size: 15px;
+}
+html {
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+}
+
+#accent {
+    color: hsl(277, 64%, 61%);
+}
+
+/* CARD */
+
+.left-side-container {
+    width: 50%;
+}
+
+.card-header-text {
+    font-size: 32px;
+}
+.card-container {
+    background-color: hsl(244, 38%, 16%);
+    margin: 100px;
+}
+
+.card-info-content-text {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+.card-content {
+    padding: 56px 56px 56px 50px;
+}
+
+.card-info-container {
+    width: 316px;
+}
+.card-info-content-text {
+    line-height: 1.75;
+    width: 100%;
+    text-align: left;
+}
+
+.card-header-container {
+    margin-bottom: 32px;
+}
